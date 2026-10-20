@@ -1,8 +1,6 @@
 module github.com/vmware-tanzu/velero
 
-go 1.21
-
-toolchain go1.21.3
+go 1.24
 
 require (
 	cloud.google.com/go/storage v1.33.0
@@ -129,7 +127,7 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
-	github.com/klauspost/compress v1.17.0 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/klauspost/cpuid/v2 v2.2.5 // indirect
 	github.com/klauspost/pgzip v1.2.6 // indirect
 	github.com/klauspost/reedsolomon v1.11.8 // indirect
